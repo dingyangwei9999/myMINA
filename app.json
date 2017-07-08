@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/info/info",
+    "pages/music/music"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e6da4",
+    "navigationBarTitleText": "Issac的小小程序",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#2e6da4",
+    "borderStyle":"#eee",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath":"font/home.png"
+      },
+      {
+        "text": "硬件信息",
+        "pagePath": "pages/info/info",
+        "iconPath":"font/calendar.png"
+      },
+      {
+        "text": "音乐",
+        "pagePath": "pages/music/music",
+        "iconPath": "font/music.png"
+      },
+      {
+        "text": "地图",
+        "pagePath": "pages/map/map",
+        "iconPath":"font/location.png"
+      }
+    ]
+  }
+}

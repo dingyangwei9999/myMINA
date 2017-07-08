@@ -1,0 +1,9 @@
+<view class="titlepic">
+  <image mode="{{mode}}" src="{{imgsrc}}" style="width: 160px; height: 160px;"></image>
+</view>
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+<view class="control">
+  <button  bindtap="audioPlay" class="start">播放</button>
+  <button  bindtap="audioPause" class="pause">暂停</button>
+  <button  bindtap="audioStart" class="replay">重播</button>
+</view>
